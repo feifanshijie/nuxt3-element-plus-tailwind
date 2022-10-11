@@ -16,3 +16,13 @@ npm run dev
 
 # 访问http://localhost:3000
 ```
+
+### build测试
+```bash
+
+npm run build
+
+npm run start
+
+# 访问http://localhost:3000
+```

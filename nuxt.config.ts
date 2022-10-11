@@ -11,8 +11,8 @@ export default defineNuxtConfig({
     transpile: lifecycle === 'build' ? ['element-plus'] : [],
   },
   experimental: {
-    reactivityTransform: true
-    // viteNode: true,
+    reactivityTransform: true,
+    viteNode: true,
   },
   vueuse: {
     ssrHandlers: true
