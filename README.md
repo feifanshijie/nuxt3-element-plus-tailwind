@@ -1,7 +1,8 @@
 ### 说明
-1. 集成了element-plus[按需加载] tailwind css
-2. 没安装pnpm先安装 `npm install -g pnpm`
-3. 请移除plugins下对element-plus的处理
+> 按需加载 element-plus 与 @element-plus/icons-vue 并集成了 tailwindcss sass
+1. 没安装pnpm先安装 `npm install -g pnpm`
+2. 请移除plugins下对element-plus的处理
+3. 使用nginx 转发开启gzip可以进一步减少体积 大概可以减少一半 参考nginx gzip说明
 
 ### 运行
 ```bash
