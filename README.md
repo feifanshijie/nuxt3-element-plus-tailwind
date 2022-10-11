@@ -26,4 +26,5 @@ npm run build
 npm run start
 
 # 访问http://localhost:3000
+# 使用nginx开启gzip体积会进一步大幅减少  参考nginx gzip
 ```
